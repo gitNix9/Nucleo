@@ -60,7 +60,7 @@ Discarded input sections
                 0x00000000       0x60 src\tiny_printf.o
  .debug_ranges  0x00000000       0x50 src\tiny_printf.o
  .debug_line    0x00000000      0x2bf src\tiny_printf.o
- .debug_str     0x00000000      0x6c1 src\tiny_printf.o
+ .debug_str     0x00000000      0x699 src\tiny_printf.o
  .comment       0x00000000       0x7d src\tiny_printf.o
  .debug_frame   0x00000000      0x1bc src\tiny_printf.o
  .ARM.attributes
@@ -429,10 +429,10 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x0000011d       0x22 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/fpv5-sp-d16/crtn.o
 OUTPUT(1_First_Nucleo_Project.elf elf32-littlearm)
 
-.debug_info     0x00000000      0x8cf
+.debug_info     0x00000000      0x8a7
  .debug_info    0x00000000      0x138 src\main.o
- .debug_info    0x00000138       0xb0 src\startup_stm32f767xx.o
- .debug_info    0x000001e8      0x6e7 src\system_stm32f7xx.o
+ .debug_info    0x00000138       0x88 src\startup_stm32f767xx.o
+ .debug_info    0x000001c0      0x6e7 src\system_stm32f7xx.o
 
 .debug_abbrev   0x00000000      0x1de
  .debug_abbrev  0x00000000       0xa2 src\main.o
@@ -457,11 +457,11 @@ OUTPUT(1_First_Nucleo_Project.elf elf32-littlearm)
  .debug_line    0x00000194       0x7b src\startup_stm32f767xx.o
  .debug_line    0x0000020f      0x1d7 src\system_stm32f7xx.o
 
-.debug_str      0x00000000      0x481
- .debug_str     0x00000000      0x1fa src\main.o
-                                0x247 (size before relaxing)
- .debug_str     0x000001fa      0x287 src\system_stm32f7xx.o
-                                0x4c0 (size before relaxing)
+.debug_str      0x00000000      0x459
+ .debug_str     0x00000000      0x1d2 src\main.o
+                                0x21f (size before relaxing)
+ .debug_str     0x000001d2      0x287 src\system_stm32f7xx.o
+                                0x498 (size before relaxing)
 
 .comment        0x00000000       0x7c
  .comment       0x00000000       0x7c src\main.o
